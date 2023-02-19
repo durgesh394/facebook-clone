@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.storyContainer {
+  position: relative;
+  margin-top: 10px;
+  background-color: #fff;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  border-radius: 10px;
+}
+.story {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -20px;
+}
+.storyWrapper {
+  margin: 20px 10px;
+}
+.storyAvator {
+  position: absolute;
+  top: 50px;
+  left: 10px;
+}
+.storyContainer img {
+  width: 100px;
+  height: 150px;
+  border-radius: 10px;
+}

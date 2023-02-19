@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  background-color: rgb(245, 245, 245);
+}
+.mainpage {
+  display: flex;
+  justify-content: space-between !important;
+}
+
+/* model style */
+.model {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  outline: none;
+}
+.modelwrapper {
+  width: 400px;
+  border-radius: 10px;
+  height: 350px;
+  background-color: #fff;
+  border: none;
+  outline: none;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.modeltop {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+
+  padding-bottom: 10px;
+  border-bottom: 1px solid silver;
+}
+.modelMiddle {
+  margin-left: 5px;
+  margin-top: 15px;
+  display: flex;
+  gap: 8px;
+}
+
+.posttextarea {
+  margin-top: 10px;
+  width: 340px;
+  height: 100px;
+  margin-left: -20px;
+  outline: none;
+  border: none;
+}
+.modelbottom {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 12px;
+  border: 1px solid silver;
+}
+.post {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 10px;
+}
+.postBtn {
+  width: 90%;
+  margin: auto;
+  background-color: #3498db;
+  padding: 7px;
+  border: none;
+  border-radius: 3px;
+}

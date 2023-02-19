@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.left_Container {
+
+  width: 400px;
+  overflow: hidden;
+  padding: 10px 10px;
+ 
+  position: fixed;
+  top: 80px !important;
+  height: 100vh;
+}
+
+.leftsideicon {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  gap: 30px;
+  margin: 30px 10px;
+  font-size: 20px;
+}
+.leftsideicon svg {
+  font-size: 25px;
+}
